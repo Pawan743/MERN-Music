@@ -2,6 +2,8 @@
 
 It is a small music player web app using the MERN stack (MongoDB, Express, React, Node.js). The app should allow users to sign up, sign in, select songs from a library, create playlists, play songs, and resume songs from where they left off.
 
+**Live Website** - **https://soft-eclair-a82237.netlify.app/**
+
 **Here's a breakdown of the technologies used, functionality, and how to set it up locally:**
 
 ### Technologies Used:
