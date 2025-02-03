@@ -12,11 +12,11 @@ const Register = () => {
     setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  let __URL__ ;
-  if ( document.domain === "localhost" ) {
+  let __URL__;
+  if (document.domain === "localhost") {
     __URL__ = "http://localhost:1337";
   } else {
-    __URL__ = "https://music-player-app-backend-yq0c.onrender.com";
+    __URL__ = "https://mern-music-backend.onrender.com";
   }
 
   const handleSubmit = async (e) => {
@@ -38,7 +38,7 @@ const Register = () => {
       fullName: "",
       email: "",
       password: "",
-    })
+    });
   };
 
   return (
@@ -86,7 +86,9 @@ const Register = () => {
           </button>
           <div className="flex justify-center items-center">
             <p>already have an account?</p>
-            <Link to="/login" className="text-gray-900">Login</Link>
+            <Link to="/login" className="text-gray-900">
+              Login
+            </Link>
           </div>
         </div>
       </form>
