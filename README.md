@@ -26,17 +26,13 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
 
    - **JWT (JSON Web Tokens)**: For user authentication, allowing secure login and session management.
 
-4. **Music Management**:
-
-   - **Spotify API**: For fetching music data, including tracks, albums, and artist information.
-
-5. **Deployment**:
-   - **For deployment i used render free cloud hosting website.**
+4. **Deployment**:
+   - **For deployment I used netlify free cloud hosting website.**
 
 ### Functionality:
 
 - **User Authentication**: Users can sign up and log in using JWT-based authentication.
-- **Music Library**: Users can browse and search for music tracks and albums using the Spotify API.
+- **Music Library**: Users can browse and search for music tracks and albums using the API.
 - **Playlist Management**: Users can create, view, and manage their playlists.
 - **Music Player**: Users can play music, with features like play, pause, skip, and volume control.
 - **Responsive Design**: The app is designed to be responsive, working well on both desktop and mobile devices.
